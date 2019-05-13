@@ -1,0 +1,10 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleImportPreferences
+#Thu Dec 01 17:07:48 CST 2016
+addResourceFilters=true
+afterTasks=afterEclipseImport;
+beforeTasks=cleanEclipse;eclipse;\:spring-oxm\:compileTestJava;
+enableAfterTasks=true
+enableBeforeTasks=true
+enableDSLD=false
+enableDependendencyManagement=false
+projects=;spring-aop;spring-aspects;spring-beans;spring-beans-groovy;buildSrc;spring-context;spring-context-support;spring-core;spring-expression;spring-framework-bom;spring-instrument;spring-instrument-tomcat;spring-jdbc;spring-jms;spring-messaging;spring-orm;spring-orm-hibernate4;spring-orm-hibernate5;spring-oxm;spring-test;spring-tx;spring-web;spring-webmvc;spring-webmvc-portlet;spring-webmvc-tiles2;spring-websocket;

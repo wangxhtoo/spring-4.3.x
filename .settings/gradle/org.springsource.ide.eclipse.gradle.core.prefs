@@ -1,0 +1,6 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Thu Dec 01 17:05:31 CST 2016
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;buildSrc;spring-aop;spring-aspects;spring-beans;spring-beans-groovy;spring-context;spring-context-support;spring-core;spring-expression;spring-framework-bom;spring-instrument;spring-instrument-tomcat;spring-jdbc;spring-jms;spring-messaging;spring-orm;spring-orm-hibernate4;spring-orm-hibernate5;spring-oxm;spring-test;spring-tx;spring-web;spring-webmvc;spring-webmvc-portlet;spring-webmvc-tiles2;spring-websocket;
+org.springsource.ide.eclipse.gradle.classpath.enableSorting=false
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=

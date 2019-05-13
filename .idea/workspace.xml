@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61a29032-e67e-4d68-9aae-05a68dc50104" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ApplicationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ApplicationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-web/src/main/java/org/springframework/web/context/ContextLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-web/src/main/java/org/springframework/web/context/ContextLoader.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/spring-test/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-test/build/" />
+    <ignored path="$PROJECT_DIR$/spring-test/out/" />
+    <ignored path="$PROJECT_DIR$/spring-aspects/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-aspects/build/" />
+    <ignored path="$PROJECT_DIR$/spring-aspects/out/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument-tomcat/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument-tomcat/build/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument-tomcat/out/" />
+    <ignored path="$PROJECT_DIR$/spring-jms/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-jms/build/" />
+    <ignored path="$PROJECT_DIR$/spring-jms/out/" />
+    <ignored path="$PROJECT_DIR$/spring-web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-web/build/" />
+    <ignored path="$PROJECT_DIR$/spring-web/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc-tiles2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc-tiles2/build/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc-tiles2/out/" />
+    <ignored path="$PROJECT_DIR$/spring-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-core/build/" />
+    <ignored path="$PROJECT_DIR$/spring-core/out/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument/build/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument/out/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc/build/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc/out/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc-portlet/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc-portlet/build/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc-portlet/out/" />
+    <ignored path="$PROJECT_DIR$/spring-expression/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-expression/build/" />
+    <ignored path="$PROJECT_DIR$/spring-expression/out/" />
+    <ignored path="$PROJECT_DIR$/spring-aop/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-aop/build/" />
+    <ignored path="$PROJECT_DIR$/spring-aop/out/" />
+    <ignored path="$PROJECT_DIR$/spring-websocket/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-websocket/build/" />
+    <ignored path="$PROJECT_DIR$/spring-websocket/out/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-bom/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-bom/build/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-bom/out/" />
+    <ignored path="$PROJECT_DIR$/spring-beans/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-beans/build/" />
+    <ignored path="$PROJECT_DIR$/spring-beans/out/" />
+    <ignored path="$PROJECT_DIR$/spring-orm-hibernate5/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-orm-hibernate5/build/" />
+    <ignored path="$PROJECT_DIR$/spring-orm-hibernate5/out/" />
+    <ignored path="$PROJECT_DIR$/spring-orm-hibernate4/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-orm-hibernate4/build/" />
+    <ignored path="$PROJECT_DIR$/spring-orm-hibernate4/out/" />
+    <ignored path="$PROJECT_DIR$/spring-beans-groovy/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-beans-groovy/build/" />
+    <ignored path="$PROJECT_DIR$/spring-beans-groovy/out/" />
+    <ignored path="$PROJECT_DIR$/spring-context/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-context/build/" />
+    <ignored path="$PROJECT_DIR$/spring-context/out/" />
+    <ignored path="$PROJECT_DIR$/spring-context-support/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-context-support/build/" />
+    <ignored path="$PROJECT_DIR$/spring-context-support/out/" />
+    <ignored path="$PROJECT_DIR$/buildSrc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/buildSrc/build/" />
+    <ignored path="$PROJECT_DIR$/buildSrc/out/" />
+    <ignored path="$PROJECT_DIR$/spring-orm/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-orm/build/" />
+    <ignored path="$PROJECT_DIR$/spring-orm/out/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/build/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/out/" />
+    <ignored path="$PROJECT_DIR$/spring-tx/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-tx/build/" />
+    <ignored path="$PROJECT_DIR$/spring-tx/out/" />
+    <ignored path="$PROJECT_DIR$/spring-messaging/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-messaging/build/" />
+    <ignored path="$PROJECT_DIR$/spring-messaging/out/" />
+    <ignored path="$PROJECT_DIR$/spring-oxm/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-oxm/build/" />
+    <ignored path="$PROJECT_DIR$/spring-oxm/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CheckStyle-IDEA-workspace">
+    <option name="configuration">
+      <map>
+        <entry key="last-active-plugin-version" value="5.23.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/spring-expression</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages PackagesPane="false" />
+      <showModules PackagesPane="true" />
+      <hideEmptyPackages PackagesPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-framework" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring" type="58d84e3e:PackageViewProjectNode" />
+              <item name="org.springframework" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61a29032-e67e-4d68-9aae-05a68dc50104" name="Default Changelist" comment="" />
+      <created>1556461613076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556461613076</updated>
+      <workItem from="1556461625729" duration="2179000" />
+      <workItem from="1556508006623" duration="1454000" />
+      <workItem from="1556953565158" duration="1713000" />
+      <workItem from="1557489599221" duration="916000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3578352" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3289256" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="sbt" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/org/aopalliance/aop/AspectException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/org/aopalliance/intercept/ConstructorInvocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/org/aopalliance/intercept/ConstructorInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/org/aopalliance/intercept/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-aop/src/main/java/org/aopalliance/aop/Advice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-705">
+          <caret line="103" column="56" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1388">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/ApplicationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4103">
+          <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20324427" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
